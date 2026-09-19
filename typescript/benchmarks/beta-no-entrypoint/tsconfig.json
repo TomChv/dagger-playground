@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@dagger.io/dagger": ["./sdk/index.ts"],
+      "@dagger.io/dagger/telemetry": ["./sdk/telemetry.ts"],
+      "@dagger.io/hello-world": ["./sdk/hello-world.gen.ts"]
+    },
+    "experimentalDecorators": true
+  }
+}

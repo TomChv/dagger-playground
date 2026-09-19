@@ -1,0 +1,22 @@
+# Dagger workspace configuration
+# Install modules with: dagger module install <module>
+# Example:
+#   dagger module install github.com/dagger/dagger/modules/wolfi
+
+[modules]
+
+[modules.typescript-sdk]
+source = "dagger.io/sdk/typescript@main"
+
+[sdks.typescript]
+module = "typescript-sdk"
+
+[modules."hello-world"]
+source = "."
+
+[sdks.typescript.scopes."."]
+is-module = true
+name = "hello-world"
+
+[sdks.typescript.scopes.".".settings]
+entrypoint = true
