@@ -1,0 +1,5 @@
+name = "hello-world"
+
+[entrypoint]
+  kind = "dang"
+  source = "./entrypoint"
