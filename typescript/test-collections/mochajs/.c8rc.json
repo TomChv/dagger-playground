@@ -1,0 +1,9 @@
+{
+  "include": ["src/**/*.ts"],
+  "reporter": ["text", "html"],
+  "report-dir": "coverage",
+  "check-coverage": true,
+  "lines": 90,
+  "branches": 85,
+  "functions": 85
+}
