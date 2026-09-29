@@ -1,0 +1,16 @@
+{
+  "name": "linkforge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shared config and error taxonomy of the linkforge link shortener",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.0"
+  }
+}

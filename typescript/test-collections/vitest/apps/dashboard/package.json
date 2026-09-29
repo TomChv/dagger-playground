@@ -1,0 +1,19 @@
+{
+  "name": "@linkforge/dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Preact dashboard rendering link stats",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "preact": "^10.29.8"
+  },
+  "devDependencies": {
+    "happy-dom": "^20.14.5",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.0"
+  }
+}
