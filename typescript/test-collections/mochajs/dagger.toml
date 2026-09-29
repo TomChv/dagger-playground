@@ -1,0 +1,2 @@
+[modules.mochajs]
+source = "dagger.io/js/mocha@collections"
