@@ -1,0 +1,13 @@
+{
+  "name": "relaykit-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Signing, queueing and reporting packages of the relaykit webhook relay",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}

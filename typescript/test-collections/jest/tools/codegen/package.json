@@ -1,0 +1,13 @@
+{
+  "name": "@relaykit/codegen",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generates typed endpoint clients from a relay spec",
+  "main": "src/emit.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}

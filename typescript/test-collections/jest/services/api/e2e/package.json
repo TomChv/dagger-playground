@@ -1,0 +1,12 @@
+{
+  "name": "@relaykit/api-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "description": "End-to-end delivery specs driving the relay against a stub endpoint",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}

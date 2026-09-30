@@ -1,0 +1,13 @@
+{
+  "name": "@relaykit/api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HTTP surface of the relaykit webhook relay",
+  "main": "src/router.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}

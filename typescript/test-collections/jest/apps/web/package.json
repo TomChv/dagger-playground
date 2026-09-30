@@ -1,0 +1,13 @@
+{
+  "name": "@relaykit/web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Delivery dashboard: badges, totals and number formatting",
+  "main": "src/totals.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
