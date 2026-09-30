@@ -1,0 +1,10 @@
+{
+  "name": "@relaykit/queue",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Delivery queue with exponential backoff and a dead-letter shelf",
+  "main": "src/queue.js",
+  "scripts": {
+    "test": "jest"
+  }
+}

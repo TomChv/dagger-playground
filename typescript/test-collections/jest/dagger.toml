@@ -1,0 +1,12 @@
+# Dagger workspace configuration
+# Install modules with: dagger module install <module>
+# Example:
+#   dagger module install dagger.io/linux/wolfi
+
+[modules]
+
+[modules.jest]
+source = "github.com/dagger/jest@collections"
+
+[modules.jest.settings]
+environment = ["RELAY_RETENTION_DAYS=7"]

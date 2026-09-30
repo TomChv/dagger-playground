@@ -1,0 +1,10 @@
+{
+  "name": "@relaykit/signature",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Canonical request strings and HMAC signatures for relayed webhooks",
+  "main": "src/hmac.js",
+  "scripts": {
+    "test": "jest"
+  }
+}
