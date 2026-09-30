@@ -1,0 +1,7 @@
+{
+  "links": [
+    { "slug": "abcd", "target": "https://example.com/one", "clicks": 40, "expired": false },
+    { "slug": "efgh", "target": "https://example.com/two", "clicks": 1200, "expired": false },
+    { "slug": "ijkl", "target": "https://example.com/three", "clicks": 0, "expired": true }
+  ]
+}
