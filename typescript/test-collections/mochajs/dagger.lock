@@ -4,7 +4,7 @@
 [["version","2"]]
 ["","git-latest",["github.com/dagger/mochajs"],"refs/tags/v0.1.0"]
 ["","git-latest",["github.com/dagger/node",["version","v0.2.0"]],"refs/tags/v0.2.0"]
-["","git-sha",["github.com/dagger/mochajs","collections"],"dfb008bbb2a2b59f81d5456fc57ea13c8d7c3c7e"]
+["","git-sha",["github.com/dagger/mochajs","collections"],"dda03b246b3d8cdf017e613385bfade8fac534ba"]
 ["","git-sha",["github.com/dagger/mochajs","refs/tags/v0.1.0"],"6885315820e226e84d5819f950aad867eebf7cba"]
 ["","git-sha",["github.com/dagger/node","refs/tags/v0.2.0"],"3304bf710bba4a75d617dff951a3f728fbc04b07"]
 ["","oci-sha",["docker.io/library/alpine:3"],"sha256:294b683cb724975bec92580e1e685676bd4b50bda910ddb8c51d4cabeaec77e6"]
