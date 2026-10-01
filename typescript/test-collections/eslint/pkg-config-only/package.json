@@ -1,0 +1,10 @@
+{
+  "name": "@guardrail/pkg-config-only",
+  "private": true,
+  "eslintConfig": {
+    "root": true,
+    "rules": {
+      "no-unused-vars": "error"
+    }
+  }
+}
