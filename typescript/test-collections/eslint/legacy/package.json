@@ -1,0 +1,7 @@
+{
+  "name": "@guardrail/legacy",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^8.57.1"
+  }
+}
