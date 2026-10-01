@@ -1,0 +1,15 @@
+{
+  "name": "@driftfeed/api",
+  "version": "0.3.1",
+  "exports": "./main.ts",
+  "exclude": ["vendor"],
+  "imports": {
+    "@std/assert": "jsr:@std/assert@^1.0.14"
+  },
+  "permissions": {
+    "default": {
+      "env": ["DRIFTFEED_TOKEN", "DRIFTFEED_MAX_ITEMS"],
+      "read": true
+    }
+  }
+}

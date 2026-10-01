@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Driftwood   Daily</title>
+    <link>https://driftwood.invalid/</link>
+    <item>
+      <guid>dd-1</guid>
+      <title>Spring tides return</title>
+      <link>https://driftwood.invalid/spring-tides</link>
+      <pubDate>2026-02-11T06:00:00Z</pubDate>
+    </item>
+    <item>
+      <guid>dd-2</guid>
+      <title>Harbour closed for dredging</title>
+      <link>https://driftwood.invalid/dredging</link>
+      <pubDate>2026-01-30T09:30:00Z</pubDate>
+    </item>
+    <item>
+      <guid>dd-3</guid>
+      <title>New
+        buoy at the bar</title>
+      <link>https://driftwood.invalid/buoy</link>
+      <pubDate>2026-03-04T17:45:00Z</pubDate>
+    </item>
+  </channel>
+</rss>

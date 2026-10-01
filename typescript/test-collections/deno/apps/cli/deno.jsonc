@@ -1,0 +1,14 @@
+{
+  // Editor-facing copy. deno itself reads deno.json in this directory, so the
+  // two must agree; `version` is deliberately different to show which one a
+  // tool picked up.
+  "name": "@driftfeed/cli",
+  "version": "1.2.0-from-deno-jsonc",
+  "exports": "./mod.ts",
+  "tasks": {
+    "which-config": "echo deno.jsonc"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@^1.0.14"
+  }
+}

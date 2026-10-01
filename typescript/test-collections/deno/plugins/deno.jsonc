@@ -1,0 +1,12 @@
+{
+  // Two parsers sharing one lockfile. Comments and the trailing commas below
+  // make this invalid strict JSON on purpose: a module that decodes the config
+  // has to cope with jsonc, not just JSON.parse it.
+  "workspace": [
+    "./rss",
+    "./atom"
+  ],
+  "imports": {
+    "@std/assert": "jsr:@std/assert@^1.0.14"
+  }
+}

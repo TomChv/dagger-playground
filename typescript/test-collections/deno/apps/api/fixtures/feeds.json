@@ -1,0 +1,17 @@
+[
+  {
+    "id": "lobsters",
+    "url": "https://lobste.rs/rss",
+    "tags": ["tech", "links"]
+  },
+  {
+    "id": "hn",
+    "url": "https://news.ycombinator.com/rss",
+    "tags": ["tech"]
+  },
+  {
+    "id": "tides",
+    "url": "https://example.invalid/tides.xml",
+    "tags": ["weather"]
+  }
+]
