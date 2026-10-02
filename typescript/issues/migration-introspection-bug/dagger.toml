@@ -1,0 +1,19 @@
+[modules.dagger-typescript-sdk]
+source = "github.com/dagger/typescript-sdk"
+
+[sdks.typescript]
+module = "dagger-typescript-sdk"
+
+[sdks.typescript.scopes.""]
+is-module = true
+name = "repro"
+
+[modules.test]
+source = ".dagger/modules/test"
+
+[sdks.typescript.scopes.".dagger/modules/test"]
+is-module = true
+name = "test"
+
+[sdks.typescript.scopes.".dagger/modules/test".settings]
+entrypoint = true
