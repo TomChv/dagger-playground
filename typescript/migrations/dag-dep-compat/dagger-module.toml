@@ -1,0 +1,10 @@
+name = "hello-world"
+engineVersion = "v0.21.10"
+source = "hello-world"
+
+[runtime]
+  source = "typescript"
+
+[[dependencies]]
+  name = "hello"
+  source = "github.com/shykes/daggerverse/hello@f82c283510bac0399451dff7ffbec0274bfc3bd4"

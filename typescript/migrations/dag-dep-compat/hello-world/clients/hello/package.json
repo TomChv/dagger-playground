@@ -1,0 +1,13 @@
+{
+  "name": "@dagger.io/hello",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./hello.gen.ts",
+  "types": "./hello.gen.ts",
+  "exports": {
+    ".": "./hello.gen.ts"
+  },
+  "dependencies": {
+    "@dagger.io/dagger": "file:../dagger"
+  }
+}

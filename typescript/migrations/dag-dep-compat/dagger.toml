@@ -1,0 +1,12 @@
+[modules.dagger-typescript-sdk]
+source = "github.com/dagger/typescript-sdk@main"
+
+[sdks.typescript]
+module = "dagger-typescript-sdk"
+
+[sdks.typescript.scopes."typescript/migrations/dag-dep-compat"]
+is-module = true
+name = "hello-world"
+clients = [
+  "github.com/shykes/daggerverse/hello@f82c283510bac0399451dff7ffbec0274bfc3bd4",
+]
