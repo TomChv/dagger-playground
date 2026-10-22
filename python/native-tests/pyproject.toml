@@ -1,0 +1,7 @@
+[tool.uv.workspace]
+members = ["sdk", "clients/core", "clients/fixtures"]
+
+[tool.uv.sources]
+dagger-io = { workspace = true }
+dagger-clients-core = { workspace = true }
+dagger-clients-fixtures = { workspace = true }

@@ -1,0 +1,22 @@
+[project]
+name = "native-test-with-dagger-pytest-module"
+version = "0.0.0"
+requires-python = ">=3.10"
+dependencies = [
+  "dagger-io",
+  "dagger-clients-core",
+  "dagger-clients-fixtures",
+  "pytest",
+  "pytest-asyncio",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.workspace]
+members = ["sdk", "clients/core", "clients/fixtures"]
+
+[tool.uv.sources]
+dagger-io = { workspace = true }
+dagger-clients-core = { workspace = true }
+dagger-clients-fixtures = { workspace = true }

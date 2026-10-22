@@ -1,0 +1,23 @@
+# Dagger workspace configuration
+# Install modules with: dagger module install <module>
+# Example:
+#   dagger module install dagger.io/linux/wolfi
+
+[modules]
+
+[modules.python-sdk]
+source = "dagger.io/sdk/python"
+
+[sdks.python]
+module = "python-sdk"
+
+[modules.fixtures]
+source = ".dagger/modules/fixtures"
+
+[sdks.python.scopes.".dagger/modules/fixtures"]
+is-module = true
+name = "fixtures"
+
+[sdks.python.scopes."."]
+name = "native-tests"
+clients = ["./.dagger/modules/fixtures"]

@@ -1,0 +1,5 @@
+name = "fixtures"
+
+[entrypoint]
+  kind = "dang"
+  source = "./entrypoint"

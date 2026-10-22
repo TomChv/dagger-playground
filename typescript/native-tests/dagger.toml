@@ -1,0 +1,23 @@
+# Dagger workspace configuration
+# Install modules with: dagger module install <module>
+# Example:
+#   dagger module install dagger.io/linux/wolfi
+
+[modules]
+
+[modules.typescript-sdk]
+source = "dagger.io/sdk/typescript"
+
+[sdks.typescript]
+module = "typescript-sdk"
+
+[modules.fixtures]
+source = ".dagger/modules/fixtures"
+
+[sdks.typescript.scopes.".dagger/modules/fixtures"]
+is-module = true
+name = "fixtures"
+
+[sdks.typescript.scopes."."]
+name = "native-tests"
+clients = ["./.dagger/modules/fixtures"]

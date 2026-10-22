@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "tsx --test test/*.test.ts"
+  },
+  "dependencies": {
+    "@dagger.io/dagger": "file:./clients/dagger",
+    "@dagger.io/fixtures": "file:./clients/fixtures",
+    "typescript": "5.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24",
+    "tsx": "4.22.4"
+  }
+}

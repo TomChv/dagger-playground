@@ -1,0 +1,23 @@
+{
+  "imports": {
+    "@dagger.io/dagger": "./clients/dagger/index.ts",
+    "@dagger.io/dagger/telemetry": "./clients/dagger/telemetry.ts",
+    "@dagger.io/fixtures": "./clients/fixtures/fixtures.gen.ts",
+    "assert": "node:assert",
+    "buffer": "node:buffer",
+    "crypto": "node:crypto",
+    "events": "node:events",
+    "fs": "node:fs",
+    "os": "node:os",
+    "path": "node:path",
+    "process": "node:process",
+    "readline": "node:readline",
+    "url": "node:url",
+    "zlib": "node:zlib"
+  },
+  "exclude": ["clients", ".dagger"],
+  "tasks": {
+    "test": "deno test -A"
+  },
+  "unstable": ["bare-node-builtins", "sloppy-imports", "node-globals", "byonm"]
+}

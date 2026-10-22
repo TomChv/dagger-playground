@@ -1,0 +1,13 @@
+{
+  "name": "@dagger.io/fixtures",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./fixtures.gen.ts",
+  "types": "./fixtures.gen.ts",
+  "exports": {
+    ".": "./fixtures.gen.ts"
+  },
+  "dependencies": {
+    "@dagger.io/dagger": "file:../dagger"
+  }
+}

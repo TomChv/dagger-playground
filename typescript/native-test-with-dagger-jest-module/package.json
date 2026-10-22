@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "dependencies": {
+    "@dagger.io/dagger": "file:./clients/dagger",
+    "@dagger.io/fixtures": "file:./clients/fixtures",
+    "typescript": "5.9.3"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.13.5",
+    "@swc/jest": "^0.2.39",
+    "@types/node": "^24",
+    "jest": "^30.2.0"
+  }
+}
