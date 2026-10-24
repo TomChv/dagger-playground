@@ -1,0 +1,28 @@
+# Workspace for the outside-files repro (typescript-sdk#86).
+#
+# The module is at ./app, not at the workspace root, so there is something for
+# it to reach: ./shared, a sibling. A root module already builds with every file
+# in the workspace and derives nothing.
+
+[modules]
+
+[modules.typescript-sdk]
+source = "dagger.io/sdk/typescript@main"
+
+[sdks.typescript]
+module = "typescript-sdk"
+
+[modules.include-app]
+source = "app"
+
+[sdks.typescript.scopes.app]
+is-module = true
+name = "include-app"
+
+# The control: the same reads, from a module that imports nothing outside itself.
+[modules.bare]
+source = "bare"
+
+[sdks.typescript.scopes.bare]
+is-module = true
+name = "bare"
