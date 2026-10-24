@@ -1,0 +1,3 @@
+[modules.runner]
+source = "./runner"
+entrypoint = true
