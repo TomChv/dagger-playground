@@ -2,10 +2,11 @@
 # Any Dagger command may update this file; always commit it with your changes.
 # Run `dagger lock update` to refresh the pinned versions.
 [["version","2"]]
-["","git-latest",["github.com/dagger/sdk-helpers",["version","v1"]],"refs/tags/v1.0.6"]
+["","git-latest",["github.com/dagger/sdk-helpers",["version","v1"]],"refs/tags/v1.0.7"]
 ["","git-latest",["github.com/dagger/typescript-sdk"],"refs/tags/v1.0.4"]
 ["","git-latest",["github.com/dagger/vitest"],"refs/tags/v0.3.0"]
 ["","git-sha",["github.com/dagger/sdk-helpers","refs/tags/v1.0.6"],"16e5bf2837eb1dc840a1c9ad7d6dba385f0038d3"]
+["","git-sha",["github.com/dagger/sdk-helpers","refs/tags/v1.0.7"],"41fd4d3062d75a836429c6db5c42b4c6c9178ca4"]
 ["","git-sha",["github.com/dagger/typescript-sdk","refs/tags/v1.0.3"],"ecf05aca593fc65acce31c19ffc159a5781ad3f3"]
 ["","git-sha",["github.com/dagger/typescript-sdk","refs/tags/v1.0.4"],"4a03df2c5f451dba710345380f028027ee480476"]
 ["","git-sha",["github.com/dagger/vitest","nested-client-workspace"],"f8fb70efd3cb6c7c62865623583466f9ccea8cdc"]

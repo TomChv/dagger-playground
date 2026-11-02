@@ -23,4 +23,4 @@ name = "native-tests"
 clients = ["./.dagger/modules/fixtures"]
 
 [modules.go]
-source = "github.com/dagger/go@nested-client-session"
+source = "github.com/dagger/go@main"

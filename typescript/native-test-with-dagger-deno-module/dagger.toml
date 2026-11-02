@@ -23,7 +23,7 @@ name = "native-tests"
 clients = ["./.dagger/modules/fixtures"]
 
 [modules.deno]
-source = "github.com/dagger/deno@nested-client-workspace"
+source = "github.com/dagger/deno"
 
 [modules.deno.settings]
 # The client spawns the dagger CLI and opens a socket to it.
