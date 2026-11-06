@@ -1,0 +1,19 @@
+# Dagger workspace configuration
+# Install modules with: dagger module install <module>
+# Example:
+#   dagger module install dagger.io/linux/wolfi
+
+[modules]
+
+[modules.typescript-sdk]
+source = "dagger.io/sdk/typescript@refactor/dispatcher-in-entrypoint-dir"
+
+[sdks.typescript]
+module = "typescript-sdk"
+
+[modules.test]
+source = ".dagger/modules/test"
+
+[sdks.typescript.scopes.".dagger/modules/test"]
+is-module = true
+name = "test"

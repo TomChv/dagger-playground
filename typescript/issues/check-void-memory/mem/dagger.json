@@ -1,0 +1,7 @@
+{
+  "name": "mem",
+  "engineVersion": "latest",
+  "sdk": {
+    "source": "typescript"
+  }
+}

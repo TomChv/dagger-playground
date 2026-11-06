@@ -1,0 +1,5 @@
+name = "version-hello"
+
+[entrypoint]
+  kind = "dang"
+  source = "./entrypoint"

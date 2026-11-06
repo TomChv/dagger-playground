@@ -1,0 +1,15 @@
+[modules.typescript-sdk]
+source = "github.com/dagger/typescript-sdk"
+
+[sdks.typescript]
+module = "typescript-sdk"
+
+[modules.mem-std]
+source = "."
+
+[sdks.typescript.scopes."."]
+is-module = true
+name = "mem-std"
+
+[sdks.typescript.scopes.".".settings]
+runtime = "bun"
